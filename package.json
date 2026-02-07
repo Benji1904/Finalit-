@@ -1,34 +1,33 @@
 {
   "name": "hashtag-v27",
   "private": true,
-  "version": "27.0.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "build": "vite build",
-    ,
-    "zip": "npm run build && zip -r HASHTAG_V27_READY.zip dist",
+    "build": "vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "firebase": "^10.8.0",
-    "lucide-react": "^0.344.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "html2canvas": "^1.4.1",
+    "firebase": "^10.8.0",
     "jspdf": "^2.5.1",
-    "html5-qrcode": "^2.3.8"
+    "html2canvas": "^1.4.1",
+    "lucide-react": "^0.344.0",
+    "react-router-dom": "^6.22.3",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.2.19",
-    "@types/html2canvas": "^1.0.0",
-    "@types/jspdf": "^2.0.0",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
-    "vite": "^5.1.4"
+    "vite": "^5.1.6"
   }
 }
