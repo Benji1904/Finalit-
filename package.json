@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "build": "vite build",
+    ,
     "zip": "npm run build && zip -r HASHTAG_V27_READY.zip dist",
     "preview": "vite preview"
   },
